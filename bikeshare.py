@@ -173,7 +173,7 @@ def user_stats(df):
     print()
     
     if 'Gender' in df.columns:
-        user_stats_gender(df)
+        gender_stats(df)
         
     if 'Birth Year' in df.columns:
         user_stats_birth(df)
@@ -182,7 +182,7 @@ def user_stats(df):
     print('-'*40)  
     
        
-def user_stats_gender(df):
+def gender_stats(df):
     """To display the statistical analysis based on gender."""
     # Display counts of gender
     print("\n Counts of gender:\n")
@@ -209,7 +209,7 @@ def user_stats_birth(df):
     earliest_birth_year = birth_year.min()
     print("The most earliest birth year:", earliest_birth_year)
    
-def other_stats(df, city):
+def trip_stats(df, city):
     """Displays other important statistics on bikeshare users."""
     print('\n Calculating Other Dataset Stats...\n')
     
@@ -241,7 +241,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        other_stats(df, city)
+        trip_stats(df, city)
         
         while True:
             raw_data = input('\nWould you like to view first five row of raw data? Enter yes or no.\n')
