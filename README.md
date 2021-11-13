@@ -10,25 +10,25 @@ Exploration of US Bikeshare Data from Motivate, a Bike Sharing Company.
 The project explores the bike share usage patterns in three major cities of the United States, New York, Washington and Chicago. 
 
 The project explores the given data of these three cities by computing a variety of descriptive statistics such as 
-1. Popular times of travel (i.e., occurs most often in the start time)
-    most common month
-    most common day of week
-    most common hour of day
+1. **Popular times of travel** (i.e., occurs most often in the start time)
+   * most common month
+   * most common day of week
+   * most common hour of day
 
-2. Popular stations and trip
-    most common start station
-    most common end station
-    most common trip from start to end (i.e., most frequent combination of start station and end station)
+2. **Popular stations and trip**
+   * most common start station
+   * most common end station
+   * most common trip from start to end (i.e., most frequent combination of start station and end station)
 
-3. Trip duration
-    total travel time
-    average travel time
+3. **Trip duration**
+   * total travel time
+   * average travel time
 
-4. User info
-    counts of each user type
-    counts of each gender (only available for NYC and Chicago)
-    earliest, most recent, most common year of birth (only available for NYC and Chicago)
-    Describe what your project is about and what it does
+4. **User info**
+   * counts of each user type
+   * counts of each gender (only available for NYC and Chicago)
+   * earliest, most recent, most common year of birth (only available for NYC and Chicago)
+   * Describe what your project is about and what it does
 
 ### Files used
 The project make use of data files obtained from Motivate, a Bike Sharing Company, for the three cities. The data files are imported as ```'chicago.csv'``` for Chicago,```'new_york_city.csv'``` for New York City, and ```'washington.csv'``` for Washington.
