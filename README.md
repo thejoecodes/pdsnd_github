@@ -29,7 +29,7 @@ The project explores the given data of these three cities by computing a variety
     Describe what your project is about and what it does
 
 ### Files used
-The project make use of data files obtained from Motivate, a Bike Sharing Company, for the three cities. The data files are imported as 'chicago.csv' for Chicago,'new_york_city.csv' for New York City, and 'washington.csv' for Washington.
+The project make use of data files obtained from Motivate, a Bike Sharing Company, for the three cities. The data files are imported as ```'chicago.csv'``` for Chicago,```'new_york_city.csv'``` for New York City, and ```'washington.csv'``` for Washington.
 
 ### Credits
 The major credit goes to the Udacity team of instructors! They are amazing! The course materials by under the instructions of Juno Lee raised my Python skills and confidence level from Newbie to intermediate real quick.
