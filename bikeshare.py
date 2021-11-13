@@ -173,7 +173,7 @@ def user_stats(df):
     print()
     
     if 'Gender' in df.columns:
-        user_stats_gender(df)
+        gender_stats(df)
         
     if 'Birth Year' in df.columns:
         user_stats_birth(df)
@@ -182,7 +182,7 @@ def user_stats(df):
     print('-'*40)  
     
        
-def user_stats_gender(df):
+def gender_stats(df):
     """To display the statistical analysis based on gender."""
     # Display counts of gender
     print("\n Counts of gender:\n")
